@@ -11,6 +11,7 @@ import rx.Observable;
  * Created by siasun on 16/9/28.
  */
 
+//API Service
 public interface ApiService {
     @GET("service/getIpInfo.php")
     Call<GetIpInfoResponse> getIpInfo(@Query("ip") String ip);
