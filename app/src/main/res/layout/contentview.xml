@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/layout_selector"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/contentview_iv"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/red"
+        android:paddingTop="1dp"
+        android:paddingBottom="10dp"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/contentview_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>

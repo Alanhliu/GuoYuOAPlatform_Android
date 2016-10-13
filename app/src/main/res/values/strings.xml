@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GuoYuOAPlatform_Android</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_conversation">会话</string>
+    <string name="bottom_announcement">公告</string>
+    <string name="bottom_function">功能</string>
+    <string name="bottom_contact">联系人</string>
+    <string name="bottom_mine">我的</string>
+    <string name="avatar_content_desc">user avatar or group logo</string>
+
+    <!--mine string-->
+    <string name="mine_avatar_string">头像</string>
+    <string name="mine_name_string">姓名</string>
+    <string name="mine_phone_string">电话</string>
+    <string name="mine_address_string">地址</string>
+    <string name="mine_exit_string">退出登录</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

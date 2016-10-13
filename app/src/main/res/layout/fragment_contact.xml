@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="hello_contact_fragment" />-->
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contact_listView"
+        android:layout_gravity="center_horizontal|top" />
+
+    <com.guoyu.guoyuoaplatform_android.customview.CounterView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        >
+    </com.guoyu.guoyuoaplatform_android.customview.CounterView>
+
+    <com.guoyu.guoyuoaplatform_android.customview.TitleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.guoyu.guoyuoaplatform_android.customview.TitleView>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="tab_bar_iv_length">20dp</dimen>
+
+    <dimen name="title_rl_height">55dp</dimen>
+    <dimen name="title_rl_back_width">20dp</dimen>
+    <dimen name="title_rl_back_height">20dp</dimen>
+    <dimen name="title_rl_back_ml">12dp</dimen>
+    <dimen name="section_margin">20dp</dimen>
+</resources>

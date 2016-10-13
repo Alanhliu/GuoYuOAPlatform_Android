@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义的属性-->
+    <declare-styleable name="ContentView">
+        <attr name="contentview_textSize" format="dimension" />
+        <attr name="contentview_color" format="color" />
+        <attr name="conentview_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="NavigationView">
+        <attr name="navigationview_title" format="string"/>
+        <attr name="navigationview_left_src" format="reference"/>
+        <attr name="navigationview_right_src" format="reference"/>
+    </declare-styleable>
+</resources>

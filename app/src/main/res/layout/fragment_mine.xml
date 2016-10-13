@@ -1,0 +1,180 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.MineFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:id="@+id/mine_avatar_linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/mine_avatar_string"
+                    android:id="@+id/mine_avatar_tv"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|left"
+                    android:background="@color/white"
+                    android:textSize="15sp" />
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/frsco_img1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    fresco:roundedCornerRadius="5dp"
+                    fresco:roundBottomLeft="false"
+                    fresco:roundBottomRight="false"
+                    fresco:roundWithOverlayColor="#333333"
+                    fresco:roundingBorderWidth="1dp"
+                    fresco:roundingBorderColor="#222222"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:id="@+id/mine_name_linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/mine_name_string"
+                    android:id="@+id/mine_name_tv"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|left"
+                    android:background="@color/white"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/layout_corner"
+                    android:contentDescription="avatar" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:id="@+id/mine_phone_linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/mine_phone_string"
+                    android:id="@+id/mine_phone_tv"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|left"
+                    android:background="@color/white"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:id="@+id/mine_address_linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/mine_address_string"
+                    android:id="@+id/mine_address_tv"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|left"
+                    android:background="@color/white"
+                    android:textSize="15sp" />
+                <EditText
+                    android:id="@+id/mine_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_e0e0e0"/>
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/gray"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                android:id="@+id/mine_exit_linearLayout">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/mine_exit_string"
+                        android:id="@+id/mine_exit_tv"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/mine_imageview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/color_e0e0e0"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

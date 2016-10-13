@@ -1,0 +1,148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:contentview="http://schemas.android.com/apk/res-auto"
+    xmlns:navigationview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".fragment.AnnouncementFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_background"
+            android:orientation="vertical">
+
+            //navigation
+
+            <com.guoyu.guoyuoaplatform_android.customview.NavigationView
+                android:id="@+id/navigation_annnouncment"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                navigationview:navigationview_left_src="@mipmap/function_item_0"
+                navigationview:navigationview_right_src="@mipmap/function_item_1"
+                navigationview:navigationview_title="hello">
+
+            </com.guoyu.guoyuoaplatform_android.customview.NavigationView>
+
+            //section0
+
+            <com.guoyu.guoyuoaplatform_android.customview.ContentView
+                android:id="@+id/contentview_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/section_margin"
+                contentview:conentview_text="朋友圈"
+                contentview:contentview_color="#000000"
+                contentview:contentview_textSize="5sp">
+
+            </com.guoyu.guoyuoaplatform_android.customview.ContentView>
+
+            //section1
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/section_margin"
+                android:orientation="vertical">
+
+                <com.guoyu.guoyuoaplatform_android.customview.ContentView
+                    android:id="@+id/contentview_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    contentview:conentview_text="扫一扫"
+                    contentview:contentview_color="#000000"
+                    contentview:contentview_textSize="5sp">
+
+                </com.guoyu.guoyuoaplatform_android.customview.ContentView>
+
+
+                <View style="@style/SeparateLine" />
+
+                <com.guoyu.guoyuoaplatform_android.customview.ContentView
+                    android:id="@+id/contentview_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    contentview:conentview_text="摇一摇"
+                    contentview:contentview_color="#000000"
+                    contentview:contentview_textSize="5sp">
+
+                </com.guoyu.guoyuoaplatform_android.customview.ContentView>
+
+            </LinearLayout>
+
+            //section2
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/section_margin"
+                android:orientation="vertical">
+
+                <com.guoyu.guoyuoaplatform_android.customview.ContentView
+                    android:id="@+id/contentview_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    contentview:conentview_text="附近的人"
+                    contentview:contentview_color="#000000"
+                    contentview:contentview_textSize="5sp">
+
+                </com.guoyu.guoyuoaplatform_android.customview.ContentView>
+
+
+                <View style="@style/SeparateLine" />
+
+                <com.guoyu.guoyuoaplatform_android.customview.ContentView
+                    android:id="@+id/contentview_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    contentview:conentview_text="漂流瓶"
+                    contentview:contentview_color="#000000"
+                    contentview:contentview_textSize="5sp">
+
+                </com.guoyu.guoyuoaplatform_android.customview.ContentView>
+
+            </LinearLayout>
+
+            //section3
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/section_margin"
+                android:orientation="vertical">
+
+                <com.guoyu.guoyuoaplatform_android.customview.ContentView
+                    android:id="@+id/contentview_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    contentview:conentview_text="购物"
+                    contentview:contentview_color="#000000"
+                    contentview:contentview_textSize="5sp">
+
+                </com.guoyu.guoyuoaplatform_android.customview.ContentView>
+
+
+                <View style="@style/SeparateLine" />
+
+                <com.guoyu.guoyuoaplatform_android.customview.ContentView
+                    android:id="@+id/contentview_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    contentview:conentview_text="游戏"
+                    contentview:contentview_color="#000000"
+                    contentview:contentview_textSize="5sp">
+
+                </com.guoyu.guoyuoaplatform_android.customview.ContentView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
